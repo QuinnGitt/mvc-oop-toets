@@ -11,7 +11,7 @@
 
 <body>
     <h3 class="reuzenrad-titel"><?= $data['title']; ?></h3>
-    <table>
+    <table border="1">
         <thead>
             <th>Naam reuzenrad</th>
             <th>Hoogte</th>
@@ -23,7 +23,7 @@
             <?= $data['rows']; ?>
         </tbody>
     </table>
-    <a href='http://www.mvc-oop-toets.com/'>Treug naar home </a>
+
 
 </body>
 

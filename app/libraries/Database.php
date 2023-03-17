@@ -11,7 +11,6 @@ class Database
 
     public function __construct()
     {
-        //verbinding met de database
         $conn = 'mysql:host=' . $this->dbHost . ';dbname=' .  $this->dbName . ';charset=UTF8';
 
         try {

@@ -2,7 +2,7 @@
 
 class Core 
 {
-    private $currentController = 'Home';
+    private $currentController = 'reuzenrad';
     private $currentMethod = 'index';
     private $params = [];
 
